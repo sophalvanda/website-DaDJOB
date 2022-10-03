@@ -1,0 +1,9 @@
+.aside {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+.aside img {
+  width: 80%;
+  margin-left: 30px;
+}/*# sourceMappingURL=aside.css.map */

@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4BCCEF;
+}
+
+.navbar {
+  margin-top: -2.3%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: rgb(61, 146, 231);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: fixed;
+}
+.navbar .nav-left {
+  display: flex;
+}
+.navbar .nav-left button {
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.navbar .nav-left .btn #active {
+  background: orange;
+}
+.navbar .nav-left button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+.navbar img {
+  width: 80px;
+  height: 60px;
+}
+.navbar .nav-right {
+  margin-top: 10px;
+  margin-right: 40px;
+}
+.navbar .nav-right button {
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: -1px;
+}
+.navbar .nav-right button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+.navbar .nav-right i {
+  display: none;
+}
+.navbar .nav-left {
+  margin-left: 40px;
+}
+.navbar .nav-left button {
+  margin-left: 20px;
+}
+
+@media (max-width: 884px) {
+  .navbar {
+    margin-top: -3.5%;
+  }
+}
+@media (max-width: 412px) {
+  .navbar {
+    margin-top: -9%;
+  }
+  .navbar button {
+    display: none;
+  }
+  .navbar img {
+    margin-left: -25px;
+  }
+  .navbar .nav-right i {
+    display: block;
+    font-size: 50px;
+  }
+}
+
+.main {
+  padding: 30px;
+  margin: 30px;
+}
+
+.image img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.form {
+  border-radius: 20px;
+  background-color: rgb(61, 146, 231);
+  width: 30%;
+  padding: 20px;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+input[type=email], input[type=text], input[type=file], input[type=position], input[type=password] {
+  padding: 6px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 45%;
+  background-color: rgb(230, 219, 219);
+}
+
+input[type=email], input[type=password], input[type=position], input[type=file] {
+  width: 95%;
+}
+
+.submit button {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(6, 6, 69);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+@media (max-width: 884px) {
+  .form {
+    width: 80%;
+  }
+  .form input {
+    padding: 14px;
+  }
+}
+@media (max-width: 412px) {
+  .form {
+    width: 100%;
+    margin-left: -20px;
+  }
+  .form h1 {
+    font-size: 20px;
+  }
+  .form input[type=text] {
+    width: 90%;
+  }
+  .form input[type=email], .form input[type=password], .form input[type=position], .form input[type=file] {
+    width: 90%;
+  }
+}
+.footer {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  background-color: rgb(61, 146, 231);
+}
+.footer .footer-left {
+  display: flex;
+  margin-left: 60px;
+}
+.footer .footer-left .left, .footer .footer-left .right {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-left .left .icn, .footer .footer-left .right .icn {
+  display: flex;
+}
+.footer .footer-left .left .icn p, .footer .footer-left .right .icn p {
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.footer .footer-left .left .icon, .footer .footer-left .right .icon {
+  margin-bottom: 40px;
+}
+.footer .footer-left .left .icon img, .footer .footer-left .right .icon img {
+  width: 20px;
+}
+.footer .footer-left .right {
+  margin-left: 60px;
+}
+.footer .footer-right {
+  display: flex;
+  margin-right: 60px;
+}
+.footer .footer-right .left, .footer .footer-right .footer-left .right, .footer .footer-left .footer-right .right {
+  margin-right: 60px;
+}
+.footer .code img {
+  width: 100px;
+}
+
+@media (max-width: 884px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .footer-right {
+    margin-left: 40px;
+  }
+  .footer .footer-right p {
+    font-size: 15px;
+  }
+  .footer .footer-left {
+    margin-right: 40px;
+  }
+}
+@media (max-width: 412px) {
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer .footer-left {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer .footer-left .left, .footer .footer-left .right {
+    margin-left: -15px;
+  }
+  .footer .footer-left .rig {
+    margin-left: -15px;
+  }
+  .footer .footer-right {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=cv.css.map */

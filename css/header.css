@@ -1,0 +1,14 @@
+.header {
+  background-color: rgb(38, 107, 226);
+  flex: 3;
+  height: 100vh;
+  width: 100%;
+  margin-top: -50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header input {
+  width: 100%;
+}/*# sourceMappingURL=header.css.map */

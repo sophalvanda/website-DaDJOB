@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(55, 180, 186);
+}
+
+.main-form {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(238, 238, 245);
+  padding: 50px;
+  margin: 80px;
+  box-shadow: rgba(55, 89, 192, 0.35) 0px 5px 15px;
+}
+
+form {
+  padding: 50px;
+  width: 120%;
+  border-radius: 10px;
+  background-color: rgb(149, 190, 199);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input[type=email], input[type=password] {
+  margin-bottom: 10px;
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.login button {
+  width: 96%;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(88, 123, 241);
+  width: 46%;
+  color: white;
+}
+
+.login {
+  padding: 10px;
+}
+
+@media (max-width: 884px) {
+  .main-form {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,60 @@
+.main{
+    padding: 30px;
+    margin: 30px;
+}
+.image img{
+    width: 80%;
+    border-radius: 20px;
+}
+.form{
+    border-radius: 20px;
+    background-color: rgb(61, 146, 231);
+    width: 30%;
+   padding: 20px;
+   color: white;
+   margin: auto;
+    margin-top: 20px;
+   border-radius: 10px;
+}
+input[type="email"],input[type="text"],input[type="file"],input[type="position"],input[type="password"]{
+    padding: 6px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 45%;
+    background-color: rgb(230, 219, 219);
+}
+input[type="email"],input[type="password"],input[type="position"],input[type="file"]{
+    width: 95%;
+}
+.submit button{
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(6, 6, 69);
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+@include responsiveSize(medium){
+    .form{
+        width: 80%;
+        input{
+            padding: 14px;
+        }
+    }
+}
+@include responsiveSize(small){
+    .form{
+        width: 100%;
+        margin-left: -20px;
+        h1{
+            font-size: 20px;
+        }
+        input[type="text"]{
+            width: 90%;
+        }
+        input[type="email"],input[type="password"],input[type="position"],input[type="file"]{
+            width: 90%;
+        }
+    }
+}

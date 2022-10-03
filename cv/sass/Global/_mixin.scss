@@ -1,0 +1,32 @@
+@use "sass:map";
+$breakPoints: (
+    medium: 884px,
+    small: 412px,
+);
+@mixin responsiveSize($key) {
+    $size: map.get($breakPoints, $key);
+    @media(max-width:$size) {
+        @content;    
+    }
+}
+@mixin box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin bnt {
+    margin-top: $mt;
+    border: none;
+    border-radius: 10px;
+}
+@import"variable";
+@mixin small {
+    display: flex;
+    flex-direction: column-reverse;
+}
+@mixin  button {
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
